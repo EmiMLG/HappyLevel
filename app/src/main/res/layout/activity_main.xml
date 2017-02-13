@@ -16,10 +16,10 @@
         android:layout_width="match_parent"
         android:layout_height="255dp"
         android:text="¡Hola! ¿Cómo te encuentras hoy?"
-        android:textSize="50sp"
+        android:textSize="60sp"
         android:gravity="center"
         android:textAlignment="center"
-        android:fontFamily="sans-serif-smallcaps"
+        android:fontFamily="cursive"
         android:textStyle="bold"
         />
 
@@ -42,17 +42,25 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp" />
 
+    <Button
+        android:id="@+id/activity_main___button_save"
+        android:text="Guardar"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_below="@id/activity_main___button_sad"
+        android:background="@drawable/redondear"/>
+
     <ImageView
         android:src="@drawable/button_selector_sad"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="65dp"
         android:id="@+id/activity_main___button_sad"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
         android:layout_below="@+id/activity_main___text_view"
         android:layout_toLeftOf="@+id/activity_main___button_normal"
-        android:layout_toStartOf="@+id/activity_main___button_normal"
-        android:layout_marginRight="17dp"
-        android:layout_marginEnd="17dp" />
+        android:layout_toStartOf="@+id/activity_main___button_normal" />
 
 
 </RelativeLayout>

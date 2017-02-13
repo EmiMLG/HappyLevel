@@ -16,12 +16,22 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.activity_main___button_normal)ImageView buttonNormal;
     @BindView(R.id.activity_main___button_sad)ImageView buttonSad;
 
+    private static final int HAPPY_BUTTON = 0;
+    private static final int NORMAL_BUTTON = 1;
+    private static final int SAD_BUTTON = 2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        ImageView[]buttons = {
+                buttonSad,
+                buttonNormal,
+                buttonHappy,
+        };
 
 
         buttonHappy.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
 
 
     }

@@ -3,4 +3,6 @@
     <item android:drawable="@drawable/happy_off" android:state_selected="true"/>
     <item  android:drawable="@drawable/happy" android:state_pressed="true"/>
     <item android:drawable="@drawable/happy_off"/>
+    <item android:drawable="@drawable/happy" android:state_active="true"/>
+
 </selector>
