@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         buttonHappy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                buttonHappy.setSelected(true);
 
             }
         });
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         buttonNormal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                buttonNormal.setSelected(true);
 
             }
         });
@@ -51,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         buttonSad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                buttonSad.setSelected(true);
 
             }
         });
