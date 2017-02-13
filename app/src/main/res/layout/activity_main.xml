@@ -24,33 +24,33 @@
         />
 
     <ImageView
-        android:id="@+id/activity_main___button_normal_off"
-        android:src="@drawable/normal_off"
+        android:id="@+id/activity_main___button_normal"
+        android:src="@drawable/button_selector_normal"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignTop="@+id/activity_main___button_sad_off"
+        android:layout_alignTop="@+id/activity_main___button_sad"
         android:layout_centerHorizontal="true" />
 
     <ImageView
-        android:id="@+id/activity_main___button_happy_off"
-        android:src="@drawable/happy_off"
+        android:id="@+id/activity_main___button_happy"
+        android:src="@drawable/button_selector_happy"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignTop="@+id/activity_main___button_normal_off"
-        android:layout_toRightOf="@+id/activity_main___button_normal_off"
-        android:layout_toEndOf="@+id/activity_main___button_normal_off"
+        android:layout_alignTop="@+id/activity_main___button_normal"
+        android:layout_toRightOf="@+id/activity_main___button_normal"
+        android:layout_toEndOf="@+id/activity_main___button_normal"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp" />
 
     <ImageView
-        android:src="@drawable/sad_off"
+        android:src="@drawable/button_selector_sad"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="65dp"
-        android:id="@+id/activity_main___button_sad_off"
+        android:id="@+id/activity_main___button_sad"
         android:layout_below="@+id/activity_main___text_view"
-        android:layout_toLeftOf="@+id/activity_main___button_normal_off"
-        android:layout_toStartOf="@+id/activity_main___button_normal_off"
+        android:layout_toLeftOf="@+id/activity_main___button_normal"
+        android:layout_toStartOf="@+id/activity_main___button_normal"
         android:layout_marginRight="17dp"
         android:layout_marginEnd="17dp" />
 
